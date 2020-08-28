@@ -539,50 +539,19 @@
   <project name="platform/libnativehelper" path="libnativehelper"/>
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
   <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth"/>
-  <project name="platform/packages/apps/Browser2" path="packages/apps/Browser2"/>
-  <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar"/>
-  <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2"/>
-  <project name="platform/packages/apps/Car/Cluster" path="packages/apps/Car/Cluster"/>
-  <project name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer"/>
-  <project name="platform/packages/apps/Car/Hvac" path="packages/apps/Car/Hvac"/>
-  <project name="platform/packages/apps/Car/LatinIME" path="packages/apps/Car/LatinIME"/>
-  <project name="platform/packages/apps/Car/Launcher" path="packages/apps/Car/Launcher"/>
-  <project name="platform/packages/apps/Car/LensPicker" path="packages/apps/Car/LensPicker"/>
-  <project name="platform/packages/apps/Car/LinkViewer" path="packages/apps/Car/LinkViewer"/>
-  <project name="platform/packages/apps/Car/LocalMediaPlayer" path="packages/apps/Car/LocalMediaPlayer"/>
-  <project name="platform/packages/apps/Car/Media" path="packages/apps/Car/Media"/>
-  <project name="platform/packages/apps/Car/Messenger" path="packages/apps/Car/Messenger"/>
-  <project name="platform/packages/apps/Car/Notification" path="packages/apps/Car/Notification"/>
-  <project name="platform/packages/apps/Car/Overview" path="packages/apps/Car/Overview"/>
-  <project name="platform/packages/apps/Car/Radio" path="packages/apps/Car/Radio"/>
-  <project name="platform/packages/apps/Car/Settings" path="packages/apps/Car/Settings"/>
-  <project name="platform/packages/apps/Car/Stream" path="packages/apps/Car/Stream"/>
-  <project name="platform/packages/apps/Car/SystemUpdater" path="packages/apps/Car/SystemUpdater"/>
-  <project name="platform/packages/apps/Car/externallibs" path="packages/apps/Car/externallibs"/>
-  <project name="platform/packages/apps/Car/libs" path="packages/apps/Car/libs"/>
-  <project name="platform/packages/apps/Car/tests" path="packages/apps/Car/tests"/>
   <project name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig"/>
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
   <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
-  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts"/>
-  <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock"/>
-  <project name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera"/>
-  <project name="platform/packages/apps/Dialer" path="packages/apps/Dialer"/>
   <project name="platform/packages/apps/DocumentsUI" path="packages/apps/DocumentsUI"/>
   <project name="platform/packages/apps/Email" path="packages/apps/Email"/>
   <project name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo"/>
-  <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery"/>
-  <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain"/>
   <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/>
-  <project name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera"/>
   <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
-  <project name="platform/packages/apps/Messaging" path="packages/apps/Messaging"/>
   <project name="platform/packages/apps/Mms" path="vendor/codeaurora/commonsys/packages/apps/Mms">
     <linkfile dest="vendor/qcom/defs/product-defs/system/app_mms_product.mk" src="app_mms_system_product.mk"/>
   </project>
-  <project name="platform/packages/apps/Music" path="packages/apps/Music"/>
   <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX"/>
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
@@ -596,29 +565,17 @@
   <project name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement"/>
   <project name="platform/packages/apps/Settings" path="packages/apps/Settings"/>
   <project name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence"/>
-  <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera"/>
-  <project name="platform/packages/apps/SnapdragonGallery" path="packages/apps/SnapdragonGallery"/>
-  <project name="platform/packages/apps/SnapdragonMusic" path="vendor/codeaurora/commonsys/packages/apps/SnapdragonMusic">
-    <linkfile dest="vendor/qcom/defs/product-defs/system/app_snapMusic_product.mk" src="app_snapMusic_system_product.mk"/>
-  </project>
-  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder"/>
-  <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts"/>
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk"/>
   <project name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager"/>
-  <project name="platform/packages/apps/TV" path="packages/apps/TV"/>
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
-  <project name="platform/packages/apps/Terminal" path="packages/apps/Terminal"/>
   <project name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity"/>
   <project name="platform/packages/apps/ThemePicker" path="packages/apps/ThemePicker"/>
   <project name="platform/packages/apps/TimeZoneData" path="packages/apps/TimeZoneData"/>
   <project name="platform/packages/apps/TimeZoneUpdater" path="packages/apps/TimeZoneUpdater"/>
   <project name="platform/packages/apps/Traceur" path="packages/apps/Traceur"/>
-  <project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings"/>
   <project name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail"/>
-  <project name="platform/packages/apps/UniversalMediaPlayer" path="packages/apps/UniversalMediaPlayer"/>
   <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker"/>
   <project name="platform/packages/apps/WallpaperPicker2" path="packages/apps/WallpaperPicker2"/>
-  <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project name="platform/packages/modules/CaptivePortalLogin" path="packages/modules/CaptivePortalLogin"/>
   <project name="platform/packages/modules/ExtServices" path="packages/modules/ExtServices"/>
   <project name="platform/packages/modules/ModuleMetadata" path="packages/modules/ModuleMetadata"/>
@@ -635,10 +592,8 @@
   <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider"/>
   <project name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider"/>
   <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider"/>
-  <project name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider"/>
   <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider"/>
   <project name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic"/>
-  <project name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable"/>
   <project name="platform/packages/services/AlternativeNetworkAccess" path="packages/services/AlternativeNetworkAccess"/>
   <project name="platform/packages/services/BuiltInPrintService" path="packages/services/BuiltInPrintService"/>
   <project name="platform/packages/services/Car" path="packages/services/Car"/>
@@ -767,10 +722,6 @@
   <project name="platform/tools/tradefederation" path="tools/tradefederation/core"/>
   <project name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib"/>
   <project name="platform/tools/trebuchet" path="tools/trebuchet"/>
-  <project name="platform/vendor/codeaurora/packages/apps/Dialer" path="vendor/codeaurora/commonsys/packages/apps/Dialer"/>
-  <project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" path="vendor/codeaurora/commonsys/packages/apps/SoundRecorder">
-    <linkfile dest="vendor/qcom/defs/product-defs/system/app_qtiSoundRecorder_product.mk" src="app_qtiSoundRecorder_system_product.mk"/>
-  </project>
   <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/commonsys/telephony"/>
   <project name="platform/vendor/nxp/interfaces/opensource/nfc" path="vendor/nxp/opensource/interfaces/nfc"/>
   <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci"/>
@@ -860,5 +811,8 @@
 
   <!-- Paranoid Android additions -->
   <include name="manifests/aospa.xml"/>
+
+  <!--Track some packages from AOSiP-->
+  <include name="manifests/aosip.xml" />
 
 </manifest>

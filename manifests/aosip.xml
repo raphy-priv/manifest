@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="abdo"
+           fetch="https://gitlab.com/abdoi94" />
+
+  <remote  name="raphy-priv"
+           fetch="https://github.com/raphy-priv" />
+
+    <!-- Device -->
+  <project path="device/xiaomi/raphael" name="android_device_xiaomi_raphael" revision="refs/heads/pa" remote="raphy-priv" />
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="refs/heads/pa" remote="raphy-priv" />
+
+
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="android_frameworks_base" revision="refs/heads/raphy" remote="raphy-priv" />
+
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" revision="refs/heads/raphy" remote="raphy-priv" />
+
+    <!-- Vendor -->
+  <project path="vendor/pa" name="android_vendor_pa" revision="refs/heads/raphy" remote="raphy-priv" />
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  />
+
+  <project path="packages/apps/Contacts" name="AOSiP/platform_packages_apps_Contacts" revision="refs/heads/ten" remote="github" />
+  <project path="packages/apps/DeskClock" name="AOSiP/platform_packages_apps_DeskClock" revision="refs/heads/ten" remote="github" />
+  <project path="packages/apps/Dialer" name="AOSiP/platform_packages_apps_Dialer" revision="refs/heads/ten" remote="github" />
+  <project path="packages/apps/Messaging" name="AOSiP/platform_packages_apps_Messaging" revision="refs/heads/ten" remote="github" />
+  <project path="packages/apps/Snap" name="AOSiP/platform_packages_apps_Snap" revision="refs/heads/ten" remote="github" />
+  <project path="packages/inputmethods/LatinIME" name="AOSiP/platform_packages_inputmethods_LatinIME" revision="refs/heads/ten" remote="github" />
+
+  <!-- AOSPA gapps -->
+  <project path="vendor/gapps" name="vendor_gapps" revision="refs/heads/quartz" clone-depth="1" remote="abdo" />
+
+</manifest>
